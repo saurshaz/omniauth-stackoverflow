@@ -13,8 +13,9 @@ module OmniAuth
       DEFAULT_SCOPE = 'email'
 
       option :client_options, {
-        :site => 'https://stackexchange.com',
+        :site => 'https://stackoverflow.com',
         :token_url => '/oauth/access_token'
+        :authorize_url => '/oauth'
       }
 
       option :token_params, {
